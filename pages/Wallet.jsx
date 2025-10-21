@@ -10,7 +10,6 @@ import { auth, db } from '../firebase'
 import { onAuthStateChanged } from 'firebase/auth'
 import { doc, getDoc } from 'firebase/firestore'
 import { DataGrid } from '@mui/x-data-grid'
-import { addTransaction, ensureWallet } from '../utils/wallet'
 
 export default function WalletPage(){
   const [user, setUser] = useState(null)

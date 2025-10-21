@@ -8,7 +8,7 @@ import Wallet from "./pages/Wallet";
 import RevenueReport from "./pages/RevenueReport";
 import Reports from "./pages/Reports";
 import AdminPanel from "./pages/AdminPanel";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 
 export default function App() {
   return (

@@ -197,7 +197,7 @@ export default function AdminPanel() {
             loading={loading}
             getRowId={(r) => r.uid}
           />
-        </div>
+        </d
       </Container>
     </motion.div>
   );
