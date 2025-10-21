@@ -1,0 +1,10 @@
+
+:root{
+  --pastel-pink:#F9EAF3;
+  --pastel-blue:#EAF6FF;
+  --pastel-lavender:#F3EAF9;
+  --accent:#CBB4E6; /* soft lavender accent */
+  --muted:#6B7280;
+}
+html,body,#root{height:100%;margin:0;padding:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;}
+a{color:inherit;text-decoration:none}
