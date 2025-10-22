@@ -8,7 +8,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import { Link, useNavigate } from 'react-router-dom';
 import { auth } from '../firebase';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
-import AuthModal from './AuthModal';
+import AuthModal from '../pages/AuthModal';
 
 export default function Navbar() {
   const [user, setUser] = useState(null);
